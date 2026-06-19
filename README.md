@@ -20,7 +20,7 @@ The system is developed using ASP.NET Web Forms, C#, ADO.NET, and SQL Server, fo
 
 * User Registration
 * Secure Login System
-* SHA256 Password Hashing
+* PBKDF2 Password Hashing
 * Password Reset & Recovery
 * Session-Based Authentication
 * Role-Based Authorization
@@ -110,13 +110,21 @@ The system is developed using ASP.NET Web Forms, C#, ADO.NET, and SQL Server, fo
 
 ### Architecture
 
-* Three-Layer Architecture
-
-  * Presentation Layer
-  * Business Logic Layer (BLL)
-  * Data Access Layer (DAL)
+* Two-Layer Architecture
+* Business Logic Layer (BLL)
+* Data Access Layer (DAL)
 
 ---
+##Every .aspx page must contain an embedded CSS block using the /* Modern EduTrack Design System */ comment.
+The design language must be consistent across all pages and include:
+
+* Glassmorphism cards
+* Gradients
+* Bootstrap Icons
+* Hover effects, shadows, smooth animations, transitions
+* Responsive layouts, dashboard widgets, professional tables & forms
+* Animated buttons, modern alerts, empty‑state components, statistics cards
+* Mobile responsiveness
 
 ## Project Structure
 
