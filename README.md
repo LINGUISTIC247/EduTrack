@@ -392,7 +392,7 @@ Change the administrator password immediately after first login in a production 
 
 ## Security Features
 
-* SHA256 Password Hashing
+* PBKDF2 Password Hashing
 * Session Authentication
 * Role-Based Authorization
 * Parameterized SQL Queries
